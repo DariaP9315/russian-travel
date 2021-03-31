@@ -1,0 +1,10 @@
+.cover__background {
+    width: 100%;
+    height: auto;
+    position: inherit;
+    z-index: -1;
+    grid-row: 1;
+    grid-column: 1;
+    
+    
+}

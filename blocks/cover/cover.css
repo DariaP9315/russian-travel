@@ -1,0 +1,31 @@
+.cover {
+    font-family: 'Inter', Arial, sans-serif;
+    max-width: 1184px;
+    height: auto;
+    margin: 92px auto;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1034px) {
+    .cover {
+        margin-top: 92px;
+        margin-bottom: 92px;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+    .cover {
+        margin-top: 90px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (min-width: 310px) and (max-width: 700px) {
+    .cover {
+        margin-top: 66px;
+        margin-bottom: 0;
+    }
+}
+

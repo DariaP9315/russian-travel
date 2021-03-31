@@ -1,0 +1,10 @@
+.place__website_url-heading {
+    font-size: 12px;
+    line-height: 1;
+    max-width: 456px;
+    height: auto;
+    color: #aaaaaa;
+    grid-area: website;
+    margin-top: 0;
+    margin-bottom: 0;
+}

@@ -1,0 +1,8 @@
+.cover__text {
+    max-width: 560px;
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    justify-content: center;
+    margin: 0 auto;
+}

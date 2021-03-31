@@ -1,0 +1,31 @@
+.cover__link {
+    
+    align-items: center;
+    max-width: 1184px;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    color: inherit;
+    z-index: 1;
+    position: relative;
+    
+}
+
+.cover__link::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    z-index: -1;
+    transition: opacity 1s ease-in-out;
+}
+
+.cover__link:hover::after {
+    
+    opacity: 0.8;
+}
