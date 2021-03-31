@@ -1,0 +1,10 @@
+.header {
+    font-family: 'Inter', Arial, sans-serif;
+    max-width: 1184px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    margin: 0 auto;
+}
