@@ -1,5 +1,4 @@
 .cover__link {
-    
     align-items: center;
     max-width: 1184px;
     text-decoration: none;
@@ -26,6 +25,5 @@
 }
 
 .cover__link:hover::after {
-    
     opacity: 0.8;
 }
