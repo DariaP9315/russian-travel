@@ -1,0 +1,7 @@
+.list_place_header {
+    margin-right: 18px;
+}
+
+.list_place_header:last-of-type {
+    margin-right: 0;
+}

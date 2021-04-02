@@ -1,0 +1,13 @@
+.list_place_footer {
+    margin-bottom: 32px;
+}
+
+.list_place_footer:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 700px) {
+    .list_place_footer {
+        margin-bottom: 0;
+    }
+}
